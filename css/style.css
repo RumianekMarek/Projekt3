@@ -1,0 +1,178 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: white;
+  color: grey;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1 {
+  color: #00ffea;
+  font-size: 80px;
+  font-weight: 800;
+  text-shadow: 0 0 10px black;
+  -webkit-text-stroke: 2px black;
+}
+
+h2 {
+  color: greenyellow;
+  font-size: 48px;
+  text-shadow: 0 0 10px black;
+  -webkit-text-stroke: 1px black;
+}
+
+li {
+  list-style-type: none;
+}
+
+span {
+  font-weight: 800;
+}
+
+/* splash */
+/* title */
+.title-splash {
+  height: 800px;
+  position: relative;
+  background-image: url("https://i.postimg.cc/kG1qz1bk/black-flat-screen-computer-monitor-1714208-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navigation ul {
+  margin: 5px 20px;
+  padding: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  text-decoration: none;
+}
+
+.navigation ul li {
+  padding: 10px 50px;
+  text-align: right;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn1 {
+  font-size: 30px;
+  color: white;
+  background: green;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* service */
+.services-splash {
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.services-splash h2 {
+  -ms-flex: 100%;
+      flex: 100%;
+}
+
+.services-splash div {
+  -ms-flex: 0.2;
+      flex: 0.2;
+  margin: 0 0 30px 0;
+}
+
+.services-splash i {
+  color: red;
+  font-size: 30px;
+  border: 3px;
+  border-style: solid;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* our work */
+.work-splash {
+  background: grey;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.work-splash .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: grey;
+  width: 1200px;
+}
+
+.work-splash .subtitle {
+  -ms-flex: 100%;
+      flex: 100%;
+}
+
+.work-splash .our-work {
+  width: 300px;
+  -ms-flex: 33%;
+      flex: 33%;
+  margin: 0 0 50px 0;
+}
+
+.work-splash .image, .sidetext, .text {
+  background: white;
+  width: 300px;
+  margin: auto;
+}
+
+.work-splash img {
+  width: 300px;
+  height: 400px;
+}
+
+.work-splash .sub-subtitle {
+  margin: 0 auto;
+  width: 300px;
+  font-size: 36px;
+  background: white;
+}
+
+.work-splash .text {
+  font-size: 20px;
+}
+
+/* footer */
+.footer {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer li {
+  margin: 0 10px;
+}
+
+.footer .copyright {
+  margin: 0 300px;
+}
+
+.footer sup {
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
